@@ -1,7 +1,7 @@
 Did The [NBA team] win last night?
 ==================================
 
-A simple, responsive and awesome web app that answers the question: "Did [NBA team] win last night?" with videos and stories. Instead of referencing various websites to find out what happened, go to one for highlights, recaps and opinions.  
+This is a simple, responsive (looks good in smartphone browsers) and awesome web app that answers the question: "Did [NBA team] win last night?" with videos and stories. Instead of referencing various websites to find out what happened, go to one for highlights, recaps and opinions.  
   
 Since it's completely static it can easily be uploaded to S3, Google Drive, Dropbox or wherever, so fork today for your favorite team! When you're all setup, add your team to the below list with a pull request.
 
@@ -20,7 +20,7 @@ Installation isn't too hard, but we'll have to edit a few files.
 Team Schedule
 -------------
 
-The app grabs the schedule of the team from a JSON file that you provide.  This JSON file is created by a Python script that parses a .csv file.  Most NBA teams provide their schedule at the [NBA's website](http://www.nba.com).  Click on "Teams" and your team, then "Schedule."  Most teams include a .csv file to download, but some do not.  I was originally going to generate the JSON file for each team, but it got too tedious because they often use different formats and _have to convert start times to  Eastern Standard Time_.  So once you have grabbed your team's csv schedule, modify it into this format:  
+The app grabs the schedule of the team from a JSON file that you provide.  This JSON file is created by a Python script that parses a .csv file.  Most NBA teams provide their schedule at the [NBA's website](http://www.nba.com).  Click on "Teams" and your team, then "Schedule."  Most teams include a .csv file to download, but some do not.  I was originally going to generate the JSON file for each team, but it got too tedious because they often use different formats and __you have to convert start times to  Eastern Standard Time__.  So once you have grabbed your team's csv schedule, modify it into this format:  
   
 `10/30/2012,7:00 PM,Quicken Loan Arena,Washington`  
   
@@ -55,7 +55,7 @@ You'll have to edit the properties in the `team` object at the beginning of this
   
 The `url` should point to the JSON schedule file that you created above.    
 
-The blog `link` is made by creating a JSON output via the [YQL Console](http://developer.yahoo.com/yql/console).  Scroll down to the bottom of "DATA TABLES" for "atom", "feed" or "xml," whatever works.The app should be able to parse standard RSS and ATOM. For the NBA.com and Yahoo! feeds you can just substitute your team's three-letter abbreviation and name, respectively.  And that should be it!  
+The blog `link` is made by creating a JSON output of the blog/website's story feed via the [YQL Console](http://developer.yahoo.com/yql/console).  Scroll down to the bottom of "DATA TABLES" for "atom", "feed" or "xml," whatever works.The app should be able to parse standard RSS and ATOM. For the NBA.com and Yahoo! feeds you can just substitute your team's three-letter abbreviation and name, respectively.  And that should be it!  
 
 `app/main.scss`
 ---------------
@@ -74,4 +74,4 @@ Additional Notes
 
 * The scores for this app come from making a request to [@SimpleNBAScores twitter feed](http://twitter.com/SimpleNBAScores) (props to them).  Unfortunately to do this client-side I had to use the depreciated version 1.0 of the Twitter API which will probably be removed at some point.  Unfortunately, this is the only way I've found of getting sports scores client-side and for free.  You'd think that something so ubiquitous as scores, but supposedly they want you to pay for it.  But, there are free server-side ways of doing it, so if the Twitter API fails in the future I will work on an API endpoint that all versions of this application would be able to use.  If anyone knows of a way to get sports scores and info for free, please let me know, not just for this project but for others I have in mind.
 * I have to admit that this app was inspired by [Is there a Giants game today?](isthereagiantsgametoday.com)
-* I hope that folks will find this useful enough to maintain a version for their team.  Please send feedback to me [on Twitter](http://twitter.com/ddw17) and all pull requests are welcomed!
+* I hope that folks will find this useful enough to maintain a version for their team.  Please send feedback to me [on Twitter](http://twitter.com/ddw17) and all pull requests are welcome!
