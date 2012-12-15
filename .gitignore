@@ -1,0 +1,10 @@
+/temp
+*.js~
+/dist/styles/sass-cache
+*.swo
+*.swp
+*.html~
+*.csv
+*.csv#
+*.scss~
+*.json~
