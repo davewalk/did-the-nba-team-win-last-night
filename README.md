@@ -5,6 +5,8 @@ A simple, responsive and awesome web app that answers the question: "Did [NBA te
   
 Since it's completely static it can easily be uploaded to S3, Google Drive, Dropbox or wherever, so fork today for your favorite team! When you're all setup, add your team to the below list with a pull request.
 
+![Did The Cavs Win Last Night? screenshot on a smartphone](http://www.didthecavswinlastnight.net/screenshot.png)
+
 Teams So Far
 ============
 
