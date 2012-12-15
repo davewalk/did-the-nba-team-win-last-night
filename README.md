@@ -1,7 +1,9 @@
 Did The [NBA team] win last night?
 ==================================
 
-A simple, responsive and awesome web app that answers the question: "Did [NBA team] win last night?" with videos and stories.  Since it's completely static it can easily be uploaded to S3, Google Drive, Dropbox or wherever, so fork today for your favorite team! When you're all setup, add your team to the below list with a pull request.
+A simple, responsive and awesome web app that answers the question: "Did [NBA team] win last night?" with videos and stories. Instead of referencing various websites to find out what happened, go to one for highlights, recaps and opinions.  
+  
+Since it's completely static it can easily be uploaded to S3, Google Drive, Dropbox or wherever, so fork today for your favorite team! When you're all setup, add your team to the below list with a pull request.
 
 Teams So Far
 ============
@@ -12,31 +14,6 @@ Installation
 ============
 
 Installation isn't too hard, but we'll have to edit a few files.  
-
-`app.index.html`
-----------------
-
-There's a few simple changes you'll have to make here:
-
-* `<title>` to match your version
-* `<meta name="description">` to match your version
-* Your UA code in the Google Analytics code if you're going to be using it.
-* The hex color of `context-strokeStyle` to change the color of the basketball at the top
-
-`app/main.js`
-------------
-
-You'll have to edit the properties in the `team` object at the beginning of this file.  It's pretty self-explanatory with `city`, `name`, and `nickname` (which is used for the `h1` in `index.html`). To fetch the Youtube videos for the website, the app queries the users in the `youtubeUsers` array on your team's `name`.  
-  
-The `url` should point to the JSON schedule file that you created above.  
-  
-
-The blog `link` is made by creating a JSON output via the [YQL Console](http://developer.yahoo.com/yql/console).  Scroll down to the bottom of "DATA TABLES" for "atom", "feed" or "xml," whatever works.The app should be able to parse standard RSS and ATOM. For the NBA.com and Yahoo! feeds you can just substitute your team's three-letter abbreviation and name, respectively.  And that should be it!  
-
-`app/main.scss`
----------------
-
-You'll probably want to change the colors to match your team.  This is easy to do with Sass, which you can download at [its website](http://sass-lang.com) if you don't have it already.  Edit the `$primary` and `$secondary` variables in `main.scss` to the colors that you want.  `$primary` is the color for the header and score content and `$secondary` is used for the links.  When you're done, recompile to `main.css` and you're done!  
 
 Team Schedule
 -------------
@@ -55,14 +32,40 @@ Put your modified csv file into `app/schedules` and navigate to it. Modify in th
     
 Then run from the command line:  
   
-`python [filename].csv [filename].json  
+`python [filename].csv [filename].json`  
   
-You should have a JSON file now that you can reference in the `team` object of `app/main.js` (see below)
+You should now have a JSON file now that you can reference in the `team` object of `app/main.js` (see below)
+
+`app.index.html`
+----------------
+
+There's a few simple changes you'll have to make here:
+
+* `<title>` to match your version
+* `<meta name="description">` to match your version
+* Your UA code in the Google Analytics code if you're going to be using it.
+* The hex color of `context-strokeStyle` to change the color of the basketball at the top
+
+`app/main.js`
+------------
+
+You'll have to edit the properties in the `team` object at the beginning of this file.  It's pretty self-explanatory with `city`, `name`, and `nickname` (which is used for the `h1` in `index.html`). To fetch the Youtube videos for the website, the app queries the users in the `youtubeUsers` array on your team's `name`.  
+  
+The `url` should point to the JSON schedule file that you created above.    
+
+The blog `link` is made by creating a JSON output via the [YQL Console](http://developer.yahoo.com/yql/console).  Scroll down to the bottom of "DATA TABLES" for "atom", "feed" or "xml," whatever works.The app should be able to parse standard RSS and ATOM. For the NBA.com and Yahoo! feeds you can just substitute your team's three-letter abbreviation and name, respectively.  And that should be it!  
+
+`app/main.scss`
+---------------
+
+You'll probably want to change the colors to match your team.  This is easy to do with Sass, which you can download at [its website](http://sass-lang.com) if you don't have it already.  Edit the `$primary` and `$secondary` variables in `main.scss` to the colors that you want.  `$primary` is the color for the header and score content and `$secondary` is used for the links.  When you're done, recompile to `main.css` and you're done!  
 
 Images
 ------
 
 Although the image on the page is a Canvas element, I've included a `favicon.ico` and four versions of `apple-touch-icon` to account for different mobile devices.  You should be able to edit these how you'd like as they are PNG files.
+
+And that's it!  Package up everything as it is in `dist` and deploy!
 
 Additional Notes
 ================
