@@ -1,0 +1,661 @@
+{
+    "games": [
+        {
+            "date": "10/30/2012", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Washington", 
+            "opponent_name": "Wizards", 
+            "time": "7:00 PM"
+        }, 
+        {
+            "date": "11/2/2012", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Chicago", 
+            "opponent_name": "Bulls", 
+            "time": "7:30 PM"
+        }, 
+        {
+            "date": "11/3/2012", 
+            "home_game": false, 
+            "location": "Bradley Center", 
+            "opponent_city": "Milwaukee", 
+            "opponent_name": "Bucks", 
+            "time": "8:30 PM"
+        }, 
+        {
+            "date": "11/5/2012", 
+            "home_game": false, 
+            "location": "Staples Center", 
+            "opponent_city": "Los Angeles", 
+            "opponent_name": "Clippers", 
+            "time": "10:30 PM"
+        }, 
+        {
+            "date": "11/7/2012", 
+            "home_game": false, 
+            "location": "Oracle Arena", 
+            "opponent_city": "Golden State", 
+            "opponent_name": "Warriors", 
+            "time": "10:30 PM"
+        }, 
+        {
+            "date": "11/9/2012", 
+            "home_game": false, 
+            "location": "Us Airways Center", 
+            "opponent_city": "Phoenix", 
+            "opponent_name": "Suns", 
+            "time": "9:00 PM"
+        }, 
+        {
+            "date": "11/11/2012", 
+            "home_game": false, 
+            "location": "Chesapeake Energy Arena", 
+            "opponent_city": "Oklahoma City", 
+            "opponent_name": "Thunder", 
+            "time": "7:00 PM"
+        }, 
+        {
+            "date": "11/13/2012", 
+            "home_game": false, 
+            "location": "Barclays Center", 
+            "opponent_city": "Brooklyn", 
+            "opponent_name": "Nets", 
+            "time": "7:30 PM"
+        }, 
+        {
+            "date": "11/17/2012", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Dallas", 
+            "opponent_name": "Mavericks", 
+            "time": "7:30 PM"
+        }, 
+        {
+            "date": "11/18/2012", 
+            "home_game": false, 
+            "location": "Wells Fargo Center", 
+            "opponent_city": "Philadelphia", 
+            "opponent_name": "76ers", 
+            "time": "6:00 PM"
+        }, 
+        {
+            "date": "11/21/2012", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Philadelphia", 
+            "opponent_name": "76ers", 
+            "time": "7:00 PM"
+        }, 
+        {
+            "date": "11/23/2012", 
+            "home_game": false, 
+            "location": "Amway Center", 
+            "opponent_city": "Orlando", 
+            "opponent_name": "Magic", 
+            "time": "7:00 PM"
+        }, 
+        {
+            "date": "11/24/2012", 
+            "home_game": false, 
+            "location": "Americanairlines Arena", 
+            "opponent_city": "Miami", 
+            "opponent_name": "Heat", 
+            "time": "7:30 PM"
+        }, 
+        {
+            "date": "11/26/2012", 
+            "home_game": false, 
+            "location": "Fedexforum", 
+            "opponent_city": "Memphis", 
+            "opponent_name": "Grizzlies", 
+            "time": "8:00 PM"
+        }, 
+        {
+            "date": "11/27/2012", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Phoenix", 
+            "opponent_name": "Suns", 
+            "time": "7:00 PM"
+        }, 
+        {
+            "date": "11/30/2012", 
+            "home_game": false, 
+            "location": "Philips Arena", 
+            "opponent_city": "Atlanta", 
+            "opponent_name": "Hawks", 
+            "time": "7:30 PM"
+        }, 
+        {
+            "date": "12/1/2012", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Portland", 
+            "opponent_name": "Trail Blazers", 
+            "time": "7:30 PM"
+        }, 
+        {
+            "date": "12/3/2012", 
+            "home_game": false, 
+            "location": "The Palace Of Auburn Hills", 
+            "opponent_city": "Detroit", 
+            "opponent_name": "Pistons", 
+            "time": "7:30 PM"
+        }, 
+        {
+            "date": "12/5/2012", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Chicago", 
+            "opponent_name": "Bulls", 
+            "time": "8:00 PM"
+        }, 
+        {
+            "date": "12/7/2012", 
+            "home_game": false, 
+            "location": "Target Center", 
+            "opponent_city": "Minnesota", 
+            "opponent_name": "Timberwolves", 
+            "time": "8:00 PM"
+        }, 
+        {
+            "date": "12/8/2012", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Detroit", 
+            "opponent_name": "Pistons", 
+            "time": "7:30 PM"
+        }, 
+        {
+            "date": "12/11/2012", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Los Angeles", 
+            "opponent_name": "Lakers", 
+            "time": "7:00 PM"
+        }, 
+        {
+            "date": "12/12/2012", 
+            "home_game": false, 
+            "location": "Bankers Life Fieldhouse", 
+            "opponent_city": "Indiana", 
+            "opponent_name": "Pacers", 
+            "time": "7:00 PM"
+        }, 
+        {
+            "date": "12/14/2012", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Milwaukee", 
+            "opponent_name": "Bucks", 
+            "time": "7:30 PM"
+        }, 
+        {
+            "date": "12/15/2012", 
+            "home_game": false, 
+            "location": "Madison Square Garden", 
+            "opponent_city": "New York", 
+            "opponent_name": "Knicks", 
+            "time": "7:30 PM"
+        }, 
+        {
+            "date": "12/18/2012", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Toronto", 
+            "opponent_name": "Raptors", 
+            "time": "7:00 PM"
+        }, 
+        {
+            "date": "12/19/2012", 
+            "home_game": false, 
+            "location": "Td Garden", 
+            "opponent_city": "Boston", 
+            "opponent_name": "Celtics", 
+            "time": "7:30 PM"
+        }, 
+        {
+            "date": "12/21/2012", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Indiana", 
+            "opponent_name": "Pacers", 
+            "time": "7:30 PM"
+        }, 
+        {
+            "date": "12/22/2012", 
+            "home_game": false, 
+            "location": "Bradley Center", 
+            "opponent_city": "Milwaukee", 
+            "opponent_name": "Bucks", 
+            "time": "8:30 PM"
+        }, 
+        {
+            "date": "12/26/2012", 
+            "home_game": false, 
+            "location": "Verizon Center", 
+            "opponent_city": "Washington", 
+            "opponent_name": "Wizards", 
+            "time": "7:00 PM"
+        }, 
+        {
+            "date": "12/28/2012", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Atlanta", 
+            "opponent_name": "Hawks", 
+            "time": "7:30 PM"
+        }, 
+        {
+            "date": "12/29/2012", 
+            "home_game": false, 
+            "location": "Barclays Center", 
+            "opponent_city": "Brooklyn", 
+            "opponent_name": "Nets", 
+            "time": "7:30 PM"
+        }, 
+        {
+            "date": "1/2/2013", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Sacramento", 
+            "opponent_name": "Kings", 
+            "time": "7:00 PM"
+        }, 
+        {
+            "date": "1/4/2013", 
+            "home_game": false, 
+            "location": "Time Warner Cable Arena", 
+            "opponent_city": "Charlotte", 
+            "opponent_name": "Bucks", 
+            "time": "7:00 PM"
+        }, 
+        {
+            "date": "1/5/2013", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Houston", 
+            "opponent_name": "Rockets", 
+            "time": "7:30 PM"
+        }, 
+        {
+            "date": "1/7/2013", 
+            "home_game": false, 
+            "location": "United Center", 
+            "opponent_city": "Chicago", 
+            "opponent_name": "Bulls", 
+            "time": "8:00 PM"
+        }, 
+        {
+            "date": "1/9/2013", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Atlanta", 
+            "opponent_name": "Hawks", 
+            "time": "7:00 PM"
+        }, 
+        {
+            "date": "1/11/2013", 
+            "home_game": false, 
+            "location": "Pepsi Center", 
+            "opponent_city": "Denver", 
+            "opponent_name": "Nuggets", 
+            "time": "9:00 PM"
+        }, 
+        {
+            "date": "1/13/2013", 
+            "home_game": false, 
+            "location": "Staples Center", 
+            "opponent_city": "Los Angeles", 
+            "opponent_name": "Lakers", 
+            "time": "9:30 PM"
+        }, 
+        {
+            "date": "1/14/2013", 
+            "home_game": false, 
+            "location": "Power Balance Pavilion", 
+            "opponent_city": "Sacramento", 
+            "opponent_name": "Kings", 
+            "time": "10:00 PM"
+        }, 
+        {
+            "date": "1/16/2013", 
+            "home_game": false, 
+            "location": "Rose Garden", 
+            "opponent_city": "Portland", 
+            "opponent_name": "Trail Blazers", 
+            "time": "10:00 PM"
+        }, 
+        {
+            "date": "1/19/2013", 
+            "home_game": false, 
+            "location": "Energysolutions Arena", 
+            "opponent_city": "Utah", 
+            "opponent_name": "Jazz", 
+            "time": "9:00 PM"
+        }, 
+        {
+            "date": "1/22/2013", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Boston", 
+            "opponent_name": "Celtics", 
+            "time": "7:00 PM"
+        }, 
+        {
+            "date": "1/25/2013", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Milwaukee", 
+            "opponent_name": "Bucks", 
+            "time": "7:30 PM"
+        }, 
+        {
+            "date": "1/26/2013", 
+            "home_game": false, 
+            "location": "Air Canada Centre", 
+            "opponent_city": "Toronto", 
+            "opponent_name": "Raptors", 
+            "time": "7:00 PM"
+        }, 
+        {
+            "date": "1/29/2013", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Golden State", 
+            "opponent_name": "Warriors", 
+            "time": "7:00 PM"
+        }, 
+        {
+            "date": "2/1/2013", 
+            "home_game": false, 
+            "location": "The Palace Of Auburn Hills", 
+            "opponent_city": "Detroit", 
+            "opponent_name": "Pistons", 
+            "time": "7:30 PM"
+        }, 
+        {
+            "date": "2/2/2013", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Oklahoma City", 
+            "opponent_name": "Thunder", 
+            "time": "7:30 PM"
+        }, 
+        {
+            "date": "2/6/2013", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Charlotte", 
+            "opponent_name": "Bucks", 
+            "time": "7:00 PM"
+        }, 
+        {
+            "date": "2/8/2013", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Orlando", 
+            "opponent_name": "Magic", 
+            "time": "7:30 PM"
+        }, 
+        {
+            "date": "2/9/2013", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Denver", 
+            "opponent_name": "Nuggets", 
+            "time": "7:30 PM"
+        }, 
+        {
+            "date": "2/11/2013", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Minnesota", 
+            "opponent_name": "Timberwolves", 
+            "time": "7:00 PM"
+        }, 
+        {
+            "date": "2/13/2013", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "San Antonio", 
+            "opponent_name": "Spurs", 
+            "time": "7:00 PM"
+        }, 
+        {
+            "date": "2/20/2013", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "New Orleans", 
+            "opponent_name": "Hornets", 
+            "time": "7:00 PM"
+        }, 
+        {
+            "date": "2/23/2013", 
+            "home_game": false, 
+            "location": "Amway Center", 
+            "opponent_city": "Orlando", 
+            "opponent_name": "Magic", 
+            "time": "7:00 PM"
+        }, 
+        {
+            "date": "2/24/2013", 
+            "home_game": false, 
+            "location": "Americanairlines Arena", 
+            "opponent_city": "Miami", 
+            "opponent_name": "Heat", 
+            "time": "6:00 PM"
+        }, 
+        {
+            "date": "2/26/2013", 
+            "home_game": false, 
+            "location": "United Center", 
+            "opponent_city": "Chicago", 
+            "opponent_name": "Bulls", 
+            "time": "8:00 PM"
+        }, 
+        {
+            "date": "2/27/2013", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Toronto", 
+            "opponent_name": "Raptors", 
+            "time": "7:00 PM"
+        }, 
+        {
+            "date": "3/1/2013", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Los Angeles", 
+            "opponent_name": "Clippers", 
+            "time": "7:30 PM"
+        }, 
+        {
+            "date": "3/4/2013", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "New York", 
+            "opponent_name": "Knicks", 
+            "time": "7:00 PM"
+        }, 
+        {
+            "date": "3/6/2013", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Utah", 
+            "opponent_name": "Jazz", 
+            "time": "7:00 PM"
+        }, 
+        {
+            "date": "3/8/2013", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Memphis", 
+            "opponent_name": "Grizzlies", 
+            "time": "7:30 PM"
+        }, 
+        {
+            "date": "3/10/2013", 
+            "home_game": false, 
+            "location": "Air Canada Centre", 
+            "opponent_city": "Toronto", 
+            "opponent_name": "Raptors", 
+            "time": "6:00 PM"
+        }, 
+        {
+            "date": "3/12/2013", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Washington", 
+            "opponent_name": "Wizards", 
+            "time": "7:00 PM"
+        }, 
+        {
+            "date": "3/15/2013", 
+            "home_game": false, 
+            "location": "American Airlines Center", 
+            "opponent_city": "Dallas", 
+            "opponent_name": "Mavericks", 
+            "time": "8:30 PM"
+        }, 
+        {
+            "date": "3/16/2013", 
+            "home_game": false, 
+            "location": "At&T Center", 
+            "opponent_city": "San Antonio", 
+            "opponent_name": "Spurs", 
+            "time": "8:30 PM"
+        }, 
+        {
+            "date": "3/18/2013", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Indiana", 
+            "opponent_name": "Pacers", 
+            "time": "7:00 PM"
+        }, 
+        {
+            "date": "3/20/2013", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Miami", 
+            "opponent_name": "Heat", 
+            "time": "7:00 PM"
+        }, 
+        {
+            "date": "3/22/2013", 
+            "home_game": false, 
+            "location": "Toyota Center", 
+            "opponent_city": "Houston", 
+            "opponent_name": "Rockets", 
+            "time": "8:00 PM"
+        }, 
+        {
+            "date": "3/27/2013", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Boston", 
+            "opponent_name": "Celtics", 
+            "time": "7:00 PM"
+        }, 
+        {
+            "date": "3/29/2013", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Philadelphia", 
+            "opponent_name": "76ers", 
+            "time": "7:30 PM"
+        }, 
+        {
+            "date": "3/31/2013", 
+            "home_game": false, 
+            "location": "New Orleans Arena", 
+            "opponent_city": "New Orleans", 
+            "opponent_name": "Hornets", 
+            "time": "6:00 PM"
+        }, 
+        {
+            "date": "4/1/2013", 
+            "home_game": false, 
+            "location": "Philips Arena", 
+            "opponent_city": "Atlanta", 
+            "opponent_name": "Hawks", 
+            "time": "7:30 PM"
+        }, 
+        {
+            "date": "4/3/2013", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Brooklyn", 
+            "opponent_name": "Nets", 
+            "time": "7:00 PM"
+        }, 
+        {
+            "date": "4/5/2013", 
+            "home_game": false, 
+            "location": "Td Garden", 
+            "opponent_city": "Boston", 
+            "opponent_name": "Celtics", 
+            "time": "7:30 PM"
+        }, 
+        {
+            "date": "4/7/2013", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Orlando", 
+            "opponent_name": "Magic", 
+            "time": "6:00 PM"
+        }, 
+        {
+            "date": "4/9/2013", 
+            "home_game": false, 
+            "location": "Bankers Life Fieldhouse", 
+            "opponent_city": "Indiana", 
+            "opponent_name": "Pacers", 
+            "time": "7:00 PM"
+        }, 
+        {
+            "date": "4/10/2013", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Detroit", 
+            "opponent_name": "Pistons", 
+            "time": "7:00 PM"
+        }, 
+        {
+            "date": "4/12/2013", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "New York", 
+            "opponent_name": "Knicks", 
+            "time": "7:30 PM"
+        }, 
+        {
+            "date": "4/14/2013", 
+            "home_game": false, 
+            "location": "Wells Fargo Center", 
+            "opponent_city": "Philadelphia", 
+            "opponent_name": "76ers", 
+            "time": "3:30 PM"
+        }, 
+        {
+            "date": "4/15/2013", 
+            "home_game": true, 
+            "location": "Quicken Loans Arena", 
+            "opponent_city": "Miami", 
+            "opponent_name": "Heat", 
+            "time": "7:00 PM"
+        }, 
+        {
+            "date": "4/17/2013", 
+            "home_game": false, 
+            "location": "Time Warner Cable Arena", 
+            "opponent_city": "Charlotte", 
+            "opponent_name": "Bucks", 
+            "time": "8:00 PM"
+        }
+    ], 
+    "title": "Cleveland Cavaliers 2012-2013 Regular Season Schedule"
+}
