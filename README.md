@@ -3,7 +3,7 @@ Did The [NBA team] win last night?
 
 This is a simple, responsive (looks good in smartphone browsers) and awesome web app that answers the question: "Did [NBA team] win last night?" with videos and stories. Instead of referencing various websites to find out what happened, go to one for highlights, recaps and opinions.  
   
-Since it's completely static it can easily be uploaded to S3, Google Drive, Dropbox or wherever, so fork today for your favorite team! When you're all setup, add your team to the below list with a pull request.
+Since it's completely static it can easily be uploaded to S3, Google Drive, Dropbox or wherever, so fork today for your favorite team! When you're all setup, add your team to the below list with a pull request. [Read more about the app](http://www.davewalk.net/post/38067603479)
 
 ![Did The Cavs Win Last Night? screenshot on a smartphone](http://www.didthecavswinlastnight.net/screenshot.png)
 
