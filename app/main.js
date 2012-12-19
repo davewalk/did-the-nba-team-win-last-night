@@ -35,11 +35,25 @@ var DidTheyWin = (function($) {
         var time = d.time;
         var min = time.split(':')[1];
 
+        var day, hour;
+
+        if (parseInt(time.split(':')[0]) === 12) {
+            hour = 12;
+        } else {
+            hour = parseInt(time.split(':')[0]) + 12;
+        }
+
+        if (date.split('/')[1] === '08' || date.split('/')[1] === '09') {
+            day = parseInt(date.split('/')[1], 10);
+        } else {
+            day = parseInt(date.split('/'));
+        }
+        
         var gameDate = Date.today().set({
             year: parseInt(date.split('/')[2]),
             month: parseInt(date.split('/')[0]) -1,
-            day: parseInt(date.split('/')[1]),
-            hour: parseInt(time.split(':')[0]) + 12,
+            day: day,
+            hour: hour,
             minute: parseInt(min)
         });
 
@@ -134,7 +148,6 @@ var DidTheyWin = (function($) {
 
     var wasGameYesterday = function(d) {
         var gameDate = toDateObject(d);
-
         gameDate = gameDate.clearTime();
 
         if (gameDate.compareTo(yesterday) === 0) {
@@ -200,7 +213,6 @@ var DidTheyWin = (function($) {
     };
 
     var printNoGame = function() {
-        console.log('in printNoGame');
         var template = $('#no-game-template').html();
         var html = Mustache.to_html(template);
         $('#results').html(html);
@@ -217,7 +229,6 @@ var DidTheyWin = (function($) {
                     printNextGame(nextGame);
                     return false;
                 } else if (gameDate.compareTo(today) === 1) {
-                    console.log("Next game is in the future");
                     date = toDateObject(game);
                     game.date = week[date.getDay()];
                     nextGame = game;
