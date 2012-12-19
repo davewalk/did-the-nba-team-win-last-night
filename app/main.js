@@ -46,7 +46,7 @@ var DidTheyWin = (function($) {
         if (date.split('/')[1] === '08' || date.split('/')[1] === '09') {
             day = parseInt(date.split('/')[1], 10);
         } else {
-            day = parseInt(date.split('/'));
+            day = parseInt(date.split('/')[1]);
         }
         
         var gameDate = Date.today().set({
