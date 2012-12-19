@@ -2,10 +2,10 @@ var DidTheyWin = (function($) {
 
     // $VARIABLES
     var team = { 
-        city: 'Cleveland',
-        name: 'Cavaliers',
-        nickname: 'Cavs',
-        url: 'Cavs.json',
+        city: 'Philadelphia',
+        name: '76ers',
+        nickname: 'Sixers',
+        url: 'Sixers.json',
         youtubeUsers : ['NEWNBACIRCLE', 'NBA'],
         blogs: [{ name : 'Cavs: The Blog',
                   url  : 'http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20feed%20where%20url%3D\'http%3A%2F%2Fwww.cavstheblog.com%2F%3Ffeed%3Drss2\'&format=json'
@@ -34,12 +34,26 @@ var DidTheyWin = (function($) {
         var date = d.date;
         var time = d.time;
         var min = time.split(':')[1];
+        
+        var day, hour;
 
+        if (parseInt(time.split(':')[0]) === 12) {
+            hour = 12;
+        } else {
+            hour = parseInt(time.split(':')[0]) + 12;
+        }
+
+        if (date.split('/')[1] === '08' || date.split('/')[1] === '09') {
+            day = parseInt(date.split('/')[1], 10);
+        } else {
+            day = parseInt(date.split('/'));
+        }
+                              
         var gameDate = Date.today().set({
             year: parseInt(date.split('/')[2]),
             month: parseInt(date.split('/')[0]) -1,
-            day: parseInt(date.split('/')[1]),
-            hour: parseInt(time.split(':')[0]) + 12,
+            day: day,
+            hour: hour,
             minute: parseInt(min)
         });
 
