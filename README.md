@@ -40,7 +40,7 @@ Then run from the command line:
   
 You should now have a JSON file now that you can reference in the `team` object of `app/main.js` (see below)
 
-`app.index.html`
+`app/index.html`
 ----------------
 
 There's a few simple changes you'll have to make here:
