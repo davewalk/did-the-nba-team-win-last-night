@@ -11,6 +11,7 @@ Teams So Far
 ============
 
 [Cleveland Cavaliers](http://www.didthecavswinlastnight.net) ([davewalk](https://github.com/davewalk))
+[Philadelphia 76ers](http://www.didthesixerswinlastnight.com) ([davewalk](https://github.com/davewalk))  
 
 Installation
 ============
