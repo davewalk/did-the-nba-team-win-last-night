@@ -10,7 +10,8 @@ Since it's completely static it can easily be uploaded to S3, Google Drive, Drop
 Teams So Far
 ============
 
-[Cleveland Cavaliers](http://www.didthecavswinlastnight.net) ([davewalk](https://github.com/davewalk))
+[Cleveland Cavaliers](http://www.didthecavswinlastnight.net) ([davewalk](https://github.com/davewalk))  
+
 [Philadelphia 76ers](http://www.didthesixerswinlastnight.com) ([davewalk](https://github.com/davewalk))  
 
 Installation
